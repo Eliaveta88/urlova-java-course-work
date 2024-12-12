@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1.bg_color {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+h4 {
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2.big_block {
+    color: #34495e;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+b {
+    color: #34495e;
+    display: inline-block;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+a.big_block {
+    display: block;
+    text-align: center;
+    color: #3498db;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+a.big_block:hover {
+    text-decoration: underline;
+}
+
+hr.no_hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.btn_registration {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_registration:hover {
+    background-color: #2980b9;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 0 10px;
+        width: calc(100% - 40px);
+    }
+
+    b {
+        width: 120px;
+        font-size: 14px;
+    }
+}
+
+.container:hover {
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease;
+}
